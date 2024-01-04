@@ -81,7 +81,7 @@ export default function Home() {
           <p className='text-black font-bold'>Alunos</p>
           <Dialog>
             <DialogTrigger asChild>
-              <Button variant="outline">Cadstrar aluno</Button>
+              <Button variant="outline">Cadastrar aluno</Button>
             </DialogTrigger>
             <DialogContent className="sm:max-w-[425px]">
               <DialogHeader>
@@ -123,7 +123,7 @@ export default function Home() {
           </Dialog>
         </div>
       </div>
-      <Input placeholder='Pesquisar alunos'
+      <Input placeholder='Pesquisar alunos por ID'
      onChange={(e) => setSearchInput(e.target.value)}
      />
       <AlunosList items={filteredAlunos} />
