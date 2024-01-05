@@ -86,7 +86,7 @@ export const AlunosList = ({
    const calculateAverage = (aluno: Alunos): number => {
     const nota1 = parseInt(aluno.nota1.toString())
     const nota2 = parseInt(aluno.nota2.toString())
-    return (nota1 + nota2);
+    return (nota1 + nota2)/2;
 };
   return (
     <div>
